@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>GIFme</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo">GIFme</div>
+    <div class="search-container"><input id="search-input" type="text" placeholder="Search..." onkeyup="onChangeSearch()"></div>
+  </header>
+  <div class="main-container">
+    <div class="gifs" id="gifs-div">
+    </div>
+  </div>
+  <footer>
+    <div class="load-more" onclick="onLoadMore()">load more</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
